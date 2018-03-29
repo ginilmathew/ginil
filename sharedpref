@@ -1,0 +1,22 @@
+package com.example.mca003.sharedpref_demo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import static com.example.mca003.sharedpref_demo.MainActivity.NAME;
+import static com.example.mca003.sharedpref_demo.MainActivity.COURSE;
+import static com.example.mca003.sharedpref_demo.MainActivity.MOB;
+public class activity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_activity2);
+        TextView name=findViewById(R.id.name);
+        TextView course=findViewById(R.id.course);
+        TextView mob=findViewById(R.id.mob);
+        
+    }
+}
+
